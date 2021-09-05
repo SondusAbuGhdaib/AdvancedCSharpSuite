@@ -14,7 +14,7 @@ namespace SeleniumCSharpNetCore.Pages
             Driver = driver;
         }
 
-        IWebElement txtUserName => Driver.FindElement(By.Name("UserName"));//username
+        IWebElement txtUserName => Driver.FindElement(By.Name("UserName"));
         IWebElement txtPassword => Driver.FindElement(By.Name("Password"));
         IWebElement btnLogin => Driver.FindElement(By.CssSelector(".btn-default"));
 
